@@ -1,0 +1,9 @@
+#Ignore scss map files
+*.css.map
+
+#Node Modules
+node_modules/
+
+#Miscellaneous
+.DS_Store
+
