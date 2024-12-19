@@ -70,6 +70,15 @@ a {
   font-size: 1.8rem;
   margin-bottom: 16px;
 }
+.about__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+.about__text {
+  flex: 1;
+}
 .about__quote {
   font-style: italic;
   margin-bottom: 16px;
@@ -78,7 +87,8 @@ a {
   line-height: 1.6;
 }
 .about__image {
-  margin-top: 16px;
+  flex: 0 0 300px;
+  max-width: 40%;
   border-radius: 8px;
 }
 
@@ -89,7 +99,7 @@ a {
 .gallery__grid {
   display: grid;
   gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 .gallery__image {
   filter: grayscale(100%);
